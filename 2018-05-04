@@ -1,0 +1,24 @@
+## install anaconda in new computer
+
+## change conda source
+```
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+```
+
+## install pytorch
+due to pip is often fresh than conda, I use pip instead of conda to install pytorch
+
+```
+~/anaconda3/bin/pip install --upgrade pip
+~/anaconda3/bin/pip install torch torchvision
+
+conda install opencv
+~/anaconda3/bin/pip install tensorboardX
+```
+
+## install ipython3
+sudo apt install ipython3
+
+## install pycharm
